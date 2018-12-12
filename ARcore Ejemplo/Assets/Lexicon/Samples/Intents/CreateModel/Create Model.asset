@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cb5b45b20d44e118eed4fc0d212245, type: 3}
+  m_Name: Create Model
+  m_EditorClassIdentifier: 
+  intentName: Create
+  actionName: Create Model
+  namespaceString: Mixspace.Lexicon.Actions
+  defaultAction: {fileID: 114311717849792686, guid: 5fc06fdb498f0474fb1f3f9ab9df9101,
+    type: 2}
+  requiredEntities:
+  - {fileID: 11400000, guid: 6609ce4a717e6488a906b94a5c46ff60, type: 2}
+  optionalEntities:
+  - {fileID: 11400000, guid: f7d6e2c46e35d47f186ca42ce62b39e5, type: 2}
+  - {fileID: 11400000, guid: f1299e026dce943fcad7491ba5640ce0, type: 2}
+  phrases:
+  - crear carga positiva
+  - crear carga negativa
+  - agregar carga positiva
+  - agregar carga negativa
+  - agregar negativa
+  - agregar positiva
+  - poner carga positiva
+  - poner carga negativa
+  - poner una positiva
+  - poner una negativa

@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9f52d7be3f94152a336e8bd65dad52, type: 3}
+  m_Name: Sample Workspace
+  m_EditorClassIdentifier: 
+  workspaceName: Cargas
+  workspaceDescription: Lexicon Sample Workspace
+  useWatsonSpeechToText: 1
+  watsonSpeechToTextManager:
+    url: https://stream.watsonplatform.net/speech-to-text/api
+    model: es-ES_BroadbandModel
+    createCustomModel: 1
+    customizationId: 276366bc-5197-4054-b5c5-3a7dc870a914
+    syncStatus: Available
+    isSyncing: 0
+    isTraining: 0
+    lastSyncTime: 12/5/2018 11:53 AM
+  useWatsonConversation: 1
+  watsonConversationManager:
+    url: https://gateway.watsonplatform.net/conversation/api
+    language: es
+    workspaceId: b2c6c0ba-21c3-4c04-9185-30580960bc19
+    syncStatus: Available
+    isSyncing: 0
+    isTraining: 0
+    lastSyncTime: 12/6/2018 8:01 AM
+    lastSyncData:
+      customWords:
+      - word: Add
+        displayAs: Add
+        pronunciations: add
+      - word: Bigger
+        displayAs: Bigger
+        pronunciations: bigger
+      - word: Create
+        displayAs: Create
+        pronunciations: create
+      - word: Delete
+        displayAs: Delete
+        pronunciations: delete
+      - word: Remove
+        displayAs: Remove
+        pronunciations: remove
+      - word: Smaller
+        displayAs: Smaller
+        pronunciations: smaller
+      - word: bigger
+        displayAs: bigger
+        pronunciations: bigger
+      - word: cyan
+        displayAs: cyan
+        pronunciations: cyan
+      - word: cylinder
+        displayAs: cylinder
+        pronunciations: cylinder
+      - word: pawn
+        displayAs: pawn
+        pronunciations: pawn
+      - word: rook
+        displayAs: rook
+        pronunciations: rook
+      - word: smaller
+        displayAs: smaller
+        pronunciations: smaller
+      - word: sphere
+        displayAs: sphere
+        pronunciations: sphere
+      intentDataKeys:
+      - Create
+      - Move
+      - Resize
+      - Delete
+      intentDataValues:
+      - name: Create
+        phrases:
+        - 'crear cubo '
+        - hacer esfera
+        - poner cilindro
+        - crear carga positiva
+        - crear carga negativa
+        - agregar carga positiva
+        - agregar carga negativa
+        - agregar negativa
+        - agregar positiva
+        - poner carga positiva
+        - poner carga negativa
+        - poner una positiva
+        - poner una negativa
+      - name: Move
+        phrases:
+        - mover este aqui
+        - "poner este ah\xED"
+        - "mover este ah\xED"
+      - name: Resize
+        phrases:
+        - hacer este mas grande
+        - tu mas grande
+        - 'este mas grande '
+        - "hacer este mas peque\xF1o"
+        - "tu mas peque\xF1o"
+        - "este mas peque\xF1o"
+      - name: Delete
+        phrases:
+        - eliminar este
+        - remover este
+        - eliminar
+        - remover
+        - eliminar este y este
+        - tu y tu eliminar
+      entityDataKeys:
+      - Primitive
+      - Color
+      - Position
+      - ChessPiece
+      - Selection
+      - Size
+      entityDataValues:
+      - name: Primitive
+        values:
+        - name: cubo
+          synonyms:
+          - caja
+        - name: esfera
+          synonyms:
+          - "bal\xF3n"
+        - name: cilindro
+          synonyms: []
+      - name: Color
+        values:
+        - name: rojo
+          synonyms: []
+        - name: verde
+          synonyms: []
+        - name: azul
+          synonyms: []
+        - name: amarilla
+          synonyms: []
+        - name: cian
+          synonyms: []
+        - name: rosada
+          synonyms: []
+        - name: morada
+          synonyms:
+          - violeta
+        - name: blanco
+          synonyms: []
+        - name: negro
+          synonyms: []
+      - name: Position
+        values:
+        - name: "aqu\xED"
+          synonyms:
+          - "all\xE1"
+      - name: ChessPiece
+        values:
+        - name: positiva
+          synonyms: []
+        - name: negativa
+          synonyms: []
+      - name: Selection
+        values:
+        - name: este
+          synonyms:
+          - ese
+        - name: tu
+          synonyms:
+          - el
+      - name: Size
+        values:
+        - name: grande
+          synonyms: []
+        - name: "peque\xF1o"
+          synonyms: []
+    timestamps:
+      intentTimestampKeys:
+      - Create
+      - Move
+      - Resize
+      - Delete
+      intentTimestampValues:
+      - 2018-12-06T13:01:29.116Z
+      - 2018-12-05T17:15:43.807Z
+      - 2018-12-05T17:15:44.470Z
+      - 2018-12-05T17:15:45.072Z
+      entityTimestampKeys:
+      - Primitive
+      - Color
+      - Position
+      - ChessPiece
+      - Selection
+      - Size
+      entityTimestampValues:
+      - 2018-12-05T17:15:45.871Z
+      - 2018-12-05T17:15:46.659Z
+      - 2018-12-05T17:15:47.329Z
+      - 2018-12-05T17:15:47.993Z
+      - 2018-12-05T17:15:48.626Z
+      - 2018-12-05T17:15:49.203Z
+  intents:
+  - {fileID: 11400000, guid: 10758a766b4e74348a1d45c014eaed64, type: 2}
+  - {fileID: 11400000, guid: 14b1dd1c0aee745438f170f0425c722a, type: 2}
+  - {fileID: 11400000, guid: c9bfc129304fd43038b4bb15beca491f, type: 2}
+  - {fileID: 11400000, guid: f20725e41b96a4442bcac61a9afc4f1d, type: 2}
+  - {fileID: 11400000, guid: af3e30d669d104e709357a2b472650ba, type: 2}
+  customWords:
+  - word: Add
+    displayAs: Add
+    pronunciations: add
+  - word: Bigger
+    displayAs: Bigger
+    pronunciations: bigger
+  - word: Create
+    displayAs: Create
+    pronunciations: create
+  - word: Delete
+    displayAs: Delete
+    pronunciations: delete
+  - word: Remove
+    displayAs: Remove
+    pronunciations: remove
+  - word: Smaller
+    displayAs: Smaller
+    pronunciations: smaller
+  - word: bigger
+    displayAs: bigger
+    pronunciations: bigger
+  - word: cyan
+    displayAs: cyan
+    pronunciations: cyan
+  - word: cylinder
+    displayAs: cylinder
+    pronunciations: cylinder
+  - word: pawn
+    displayAs: pawn
+    pronunciations: pawn
+  - word: rook
+    displayAs: rook
+    pronunciations: rook
+  - word: smaller
+    displayAs: smaller
+    pronunciations: smaller
+  - word: sphere
+    displayAs: sphere
+    pronunciations: sphere

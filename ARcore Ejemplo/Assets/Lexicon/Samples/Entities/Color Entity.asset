@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6642c7c3decd471ab50f4dabd5b1272, type: 3}
+  m_Name: Color Entity
+  m_EditorClassIdentifier: 
+  entityName: Color
+  values:
+  - valueName: rojo
+    synonyms: 
+    binding: {r: 1, g: 0, b: 0, a: 1}
+  - valueName: verde
+    synonyms: 
+    binding: {r: 0, g: 1, b: 0, a: 1}
+  - valueName: azul
+    synonyms: 
+    binding: {r: 0, g: 0, b: 1, a: 1}
+  - valueName: amarilla
+    synonyms: 
+    binding: {r: 1, g: 1, b: 0, a: 1}
+  - valueName: cian
+    synonyms: 
+    binding: {r: 0, g: 1, b: 1, a: 1}
+  - valueName: rosada
+    synonyms: 
+    binding: {r: 1, g: 0, b: 1, a: 1}
+  - valueName: morada
+    synonyms: violeta
+    binding: {r: 0.50980395, g: 0.078431375, b: 0.8627451, a: 1}
+  - valueName: blanco
+    synonyms: 
+    binding: {r: 1, g: 1, b: 1, a: 1}
+  - valueName: negro
+    synonyms: 
+    binding: {r: 0, g: 0, b: 0, a: 1}

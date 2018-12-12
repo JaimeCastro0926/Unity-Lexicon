@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cb5b45b20d44e118eed4fc0d212245, type: 3}
+  m_Name: Create Primitive
+  m_EditorClassIdentifier: 
+  intentName: Create
+  actionName: Create Primitive
+  namespaceString: Mixspace.Lexicon.Actions
+  defaultAction: {fileID: 114542428178635636, guid: 3061128a2ecf14fbfb489c2dd6ec174e,
+    type: 2}
+  requiredEntities:
+  - {fileID: 11400000, guid: 4ab89afbce6ba4a3c99c787f0c7a4075, type: 2}
+  optionalEntities:
+  - {fileID: 11400000, guid: f7d6e2c46e35d47f186ca42ce62b39e5, type: 2}
+  - {fileID: 11400000, guid: f1299e026dce943fcad7491ba5640ce0, type: 2}
+  phrases:
+  - 'crear cubo '
+  - hacer esfera
+  - poner cilindro

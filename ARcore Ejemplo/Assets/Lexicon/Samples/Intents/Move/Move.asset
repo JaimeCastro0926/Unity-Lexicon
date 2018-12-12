@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cb5b45b20d44e118eed4fc0d212245, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  intentName: Move
+  actionName: Move
+  namespaceString: Mixspace.Lexicon.Actions
+  defaultAction: {fileID: 114739344659429762, guid: a13afe664442042e9ae733df124c689c,
+    type: 2}
+  requiredEntities:
+  - {fileID: 11400000, guid: abc70d93121e64ba19497c1e7269341e, type: 2}
+  optionalEntities:
+  - {fileID: 11400000, guid: f1299e026dce943fcad7491ba5640ce0, type: 2}
+  phrases:
+  - mover este aqui
+  - "poner este ah\xED"
+  - "mover este ah\xED"
